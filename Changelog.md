@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.0.3
+* Moved repositories
+
 ## 1.0.0.2
 * Added Run Report option to the Layout Selection page
 * Added Report ID to the Layout Selection page
