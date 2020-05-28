@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0.4
+* Created automated tests
+* Bugfixes
+
 ## 1.0.0.3
 * Moved repositories
 
