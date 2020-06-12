@@ -1,3 +1,3 @@
 * [Home](/)
 * [Changelog](Changelog.md)
-* [License](/EULA.pdf)
+* [License](EULA.md)
