@@ -29,3 +29,37 @@ To select the layout you want to use please navigate to "Red Layout Selection". 
 | Field No. | Use the field that you want to use to determine whether or not to use the Custom Report Layout |
 | Value | The value of the field that determines if the Custom Report Layout should be used |
 | CustomLayoutDescription | The Custom Report Layout to use |
+
+## Export
+To export the Red Layout Selection you can select Export on the lint. This will export all the selected records to a json file.
+
+
+![Export](_media/Screenshot&#32;Export.png)
+
+## Import
+To import records from a json file you can select Import on the lint in the Red Layout Selection. This will import new records in the database.
+
+
+![Export](_media/Screenshot&#32;Import.png)
+
+If the record already exists it will be skipped. If the Custom Report Layout in the import file does not exist it will be created. The custom layout will be a copy from the built in layout, you will need to import your Custom Report Layouts separately.
+
+The structure of the import file looks like this:
+```json
+[
+	{
+		"Report ID":50000,
+		"Custom Report Layout Code":"50000-000001",
+		"Table No.":112,
+		"Field No.":2,
+		"Value":"10000"
+	},
+	{
+		"Report ID":50000,
+		"Custom Report Layout Code":"50000-000002",
+		"Table No.":112,
+		"Field No.":2,
+		"Value":"20000"
+	}
+]
+```
