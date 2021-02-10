@@ -5,6 +5,7 @@
 * Remove With
 * Added Import/Export
 * Added support for NLD, DEU, and DAN language
+* Added lookup support for bank accounts
 
 ## 1.0.0.4
 * Created automated tests

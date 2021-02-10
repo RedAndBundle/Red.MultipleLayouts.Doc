@@ -30,6 +30,11 @@ To select the layout you want to use please navigate to "Red Layout Selection". 
 | Value | The value of the field that determines if the Custom Report Layout should be used |
 | CustomLayoutDescription | The Custom Report Layout to use |
 
+### Printing checks
+It is possible to use the Multiple Report Layout selection with the Reports ForNAV MICR check. To use a different report layout per bank account you will need to set up a Payment Journal per bank account and select the correct layouts in the Red Layout Selection.
+
+![CheckLayoutPerBankAccount](_media/Screenshot%20Check%20Selection.png)
+
 ## Export
 To export the Red Layout Selection you can select Export on the lint. This will export all the selected records to a json file.
 
