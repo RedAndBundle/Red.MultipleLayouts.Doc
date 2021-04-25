@@ -37,15 +37,17 @@ It is possible to use the Multiple Report Layout selection with the Reports ForN
 
 ![CheckLayoutPerBankAccount](_media/Screenshot%20Check%20Selection.png)
 
+## Recorder
+If you are not sure which report and which source table you need to use you can switch on the recorder. If the recorder has been switched on the running of reports will create a new record in the Red Layout Selection with the Report Id and Table No. filled in.
+
+![Recorder](_media/Screenshot%20Record.png)
 ## Export
 To export the Red Layout Selection you can select Export on the lint. This will export all the selected records to a json file.
-
 
 ![Export](_media/Screenshot&#32;Export.png)
 
 ## Import
 To import records from a json file you can select Import on the lint in the Red Layout Selection. This will import new records in the database.
-
 
 ![Export](_media/Screenshot&#32;Import.png)
 
