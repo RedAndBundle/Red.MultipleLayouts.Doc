@@ -6,6 +6,7 @@
 * Added Import/Export
 * Added support for NLD, DEU, and DAN language
 * Added lookup support for bank accounts
+* Added Report Recorder
 
 ## 1.0.0.4
 * Created automated tests
