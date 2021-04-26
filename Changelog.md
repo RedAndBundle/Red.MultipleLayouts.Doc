@@ -7,6 +7,7 @@
 * Added support for NLD, DEU, and DAN language
 * Added lookup support for bank accounts
 * Added Report Recorder
+* Added Default Layout
 
 ## 1.0.0.4
 * Created automated tests
