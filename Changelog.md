@@ -8,6 +8,7 @@
 * Added lookup support for bank accounts
 * Added Report Recorder
 * Added Default Layout
+* Added Telemetry
 
 ## 1.0.0.4
 * Created automated tests
