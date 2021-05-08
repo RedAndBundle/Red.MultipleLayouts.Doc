@@ -20,7 +20,7 @@ To select the layout you want to use please navigate to "Red Layout Selection". 
 
 > Please make sure the Table No. matches the record you want to print with the report.
 
-![SetupPage](_media/Screenshot&#32;Layout&#32;Selection.png)
+![SetupPage](./_media/Screenshot%20Setup.png)
 
 
 | Field | Description |
@@ -35,21 +35,21 @@ To select the layout you want to use please navigate to "Red Layout Selection". 
 ### Printing checks
 It is possible to use the Multiple Report Layout selection with the Reports ForNAV MICR check. To use a different report layout per bank account you will need to set up a Payment Journal per bank account and select the correct layouts in the Red Layout Selection.
 
-![CheckLayoutPerBankAccount](_media/Screenshot%20Check%20Selection.png)
+![CheckLayoutPerBankAccount](./_media/Screenshot%20Check%20Selection.png)
 
 ## Recorder
 If you are not sure which report and which source table you need to use you can switch on the recorder. If the recorder has been switched on the running of reports will create a new record in the Red Layout Selection with the Report Id and Table No. filled in.
 
-![Recorder](_media/Screenshot%20Record.png)
+![Recorder](./_media/Screenshot%20Record.png)
 ## Export
 To export the Red Layout Selection you can select Export on the lint. This will export all the selected records to a json file.
 
-![Export](_media/Screenshot&#32;Export.png)
+![Export](./_media/Screenshot%20Export.png)
 
 ## Import
 To import records from a json file you can select Import on the lint in the Red Layout Selection. This will import new records in the database.
 
-![Export](_media/Screenshot&#32;Import.png)
+![Export](./_media/Screenshot%20Import.png)
 
 If the record already exists it will be skipped. If the Custom Report Layout in the import file does not exist it will be created. The custom layout will be a copy from the built in layout, you will need to import your Custom Report Layouts separately.
 
@@ -72,3 +72,9 @@ The structure of the import file looks like this:
 	}
 ]
 ```
+
+## Permissions
+The Multiple Report Layout Selector comes with two permission levels, user and administrator. The user needs permission to read from the Red Layout Selection table. The Administrators also need permission to edit that table.
+
+User permissions are assigned automatically to the "D365 BUS PREMIUM" and "D365 BASIC" permission sets. Administrator permissions need to be assigned manually by adding the "RED LAYOUT ADMINISTR" permission set to the user.
+

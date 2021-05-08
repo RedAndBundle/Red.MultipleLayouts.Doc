@@ -9,6 +9,7 @@
 * Added Report Recorder
 * Added Default Layout
 * Added Telemetry
+* Added Permission Extensions
 
 ## 1.0.0.4
 * Created automated tests
