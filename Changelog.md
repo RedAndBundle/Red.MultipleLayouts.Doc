@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0.0
+* Business Central 2021 Wave 1 compatible
+* Remove With
+* Added Import/Export
+* Added support for NLD, DEU, and DAN language
+* Added lookup support for bank accounts
+* Added Report Recorder
+* Added Default Layout
+* Added Telemetry
+* Added Permission Extensions
+
 ## 1.0.0.4
 * Created automated tests
 * Bugfixes
