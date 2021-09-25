@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0.0
+* Add support for sending documents as PDF or email attachment.
+* Use built in layout when no custom layout is selected on the default layout.
+* Added user permission set in addition to permission set extensions.
+
 ## 2.0.0.0
 * Business Central 2021 Wave 1 compatible
 * Remove With
