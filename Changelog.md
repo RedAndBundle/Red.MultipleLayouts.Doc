@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0.1
+* Add Setup page
+* Add Setup option to add commit when posting documents
+* Ignore email layouts
+
 ## 2.1.0.0
 * Add support for sending documents as PDF or email attachment.
 * Use built in layout when no custom layout is selected on the default layout.
